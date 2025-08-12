@@ -1,0 +1,122 @@
+[
+    {
+        "question": "Sizga ko'proq nima yoqadi?",
+        "options": ["Kitob o'qish va yangi hikoyalar yozish.", "Narsalarning qanday ishlashini o'rganish va tajribalar qilish."]
+    },
+    {
+        "question": "Bo'sh vaqtingizda nima qilishni afzal ko'rasiz?",
+        "options": ["Rasm chizish, musiqa chalish yoki biror narsa yasash.", "Sport o'ynash, yugurish yoki tashqarida sayr qilish."]
+    },
+    {
+        "question": "Qaysi biri sizga ko'proq o'xshaydi?",
+        "options": ["Men narsalarimni tartibli saqlashni va kunimni rejalashtirishni yaxshi ko'raman.", "Men yangi g'oyalar o'ylab topishni va ularni boshqalarga taqdim etishni yaxshi ko'raman."]
+    },
+    {
+        "question": "Maktabdagi loyihani qanday bajarishni yoqtirasiz?",
+        "options": ["Boshqa o'quvchilar bilan birga guruhda ishlashni.", "O'zim yolg'iz ishlashni."]
+    },
+    {
+        "question": "Agar sizga LEGO to'plami berilsa, nima qilasiz?",
+        "options": ["O'z tasavvurimdan foydalanib, butunlay yangi va g'ayrioddiy narsa yarataman.", "Yo'riqnomaga qarab, modelni aniq va puxta yig'ib chiqaman."]
+    },
+    {
+        "question": "Do'stingiz xafa bo'lsa, nima qilasiz?",
+        "options": ["Uni diqqat bilan tinglayman va unga yordam berishga harakat qilaman.", "Unga dalda beruvchi so'zlar aytaman va vaziyatni tahlil qilib, maslahat beraman."]
+    },
+    {
+        "question": "Sinf sayohatini rejalashtirishda qaysi vazifani tanlaysiz?",
+        "options": ["O'yinlar va jismoniy mashg'ulotlarni tashkil qilish.", "Sayohat jadvalini, boriladigan joylar ro'yxatini tuzish."]
+    },
+    {
+        "question": "Maktab yarmarkasi uchun nima tayyorlagan bo'lardingiz?",
+        "options": ["Odamlar sotib olishi uchun qiziqarli mahsulot (masalan, o'z qo'lingiz bilan yasalgan narsalar) o'ylab topish.", "Yarmarkani bezatish uchun plakatlar va bezaklar chizish."]
+    },
+    {
+        "question": "Yangi kompyuter o'yinini olganingizda...",
+        "options": ["Darhol o'ynashni boshlayman va o'yin davomida o'rganaman.", "Avval yo'riqnomani o'qib chiqib, qoidalarni o'rganaman."]
+    },
+    {
+        "question": "Qaysi mashg'ulot siz uchun qiziqarliroq?",
+        "options": ["Ilmiy muzeyga borib, tajribalarni tomosha qilish.", "Bemorlarga yordam berayotgan shifokorlar haqida film ko'rish."]
+    },
+    {
+        "question": "Qaysi sovg'ani tanlaysiz?",
+        "options": ["Qiziqarli hikoyalarga boy kitoblar to'plami.", "Yangi sport anjomi (masalan, koptok yoki velosiped)."]
+    },
+    {
+        "question": "Tug'ilgan kuningizni qanday o'tkazishni xohlaysiz?",
+        "options": ["Uyni o'zim chiroyli qilib bezatishni.", "Mehmonlar ro'yxatini tuzish va hamma narsani reja asosida tashkil qilishni."]
+    },
+    {
+        "question": "Do'stlaringiz qaysi filmni ko'rishni hal qila olmayotgan bo'lsa...",
+        "options": ["O'zimga yoqqan filmni taklif qilaman va ularni ko'ndirishga harakat qilaman.", "Boshqalar bir qarorga kelishini kutaman."]
+    },
+    {
+        "question": "Agar sizda ajoyib g'oya bo'lsa, nima qilasiz?",
+        "options": ["Bu g'oyani qanday qilib pul ishlash mumkin bo'lgan loyihaga aylantirishni o'ylayman.", "Bu g'oya odamlarga qanday yordam berishi mumkinligini o'ylayman."]
+    },
+    {
+        "question": "Qanday filmlarni ko'proq yoqtirasiz?",
+        "options": ["Haqiqiy voqealarga asoslangan yoki hujjatli filmlarni.", "Fantastik yoki sehrgarlik haqidagi filmlarni."]
+    },
+    {
+        "question": "Buzilgan o'yinchoqni nima qilasiz?",
+        "options": ["Uni qismlarga ajratib, qanday ishlashini tushunishga va tuzatishga harakat qilaman.", "Uni tuzatish uchun asboblardan foydalanib, amaliy ishga kirishaman."]
+    },
+    {
+        "question": "Maktab devoriy gazetasi uchun qaysi vazifani bajarasiz?",
+        "options": ["Qiziqarli maqola yozish.", "Chiroyli rasmlar chizish."]
+    },
+    {
+        "question": "Sinfda yangi o'quvchi paydo bo'lsa...",
+        "options": ["Unga maktabni tanishtirish uchun reja tuzib beraman (qaysi sinf qayerda va hokazo).", "U bilan do'stlashib, boshqa o'quvchilar bilan tanishishiga yordam beraman."]
+    },
+    {
+        "question": "Sizga ko'proq nima yoqadi?",
+        "options": ["Qo'llaringiz bilan ishlash, masalan, bog'dorchilik yoki duradgorlik.", "Jamoani boshqarish va biror maqsadga erishish uchun ularni ruhlantirish."]
+    },
+    {
+        "question": "Dam olish kunlarini qanday o'tkazishni afzal ko'rasiz?",
+        "options": ["Do'stlar davrasida, shovqinli joylarda.", "Uyda, tinchgina o'z sevimli mashg'ulotingiz bilan shug'ullanib."]
+    },
+    {
+        "question": "Murakkab jumboq (pazl) yig'ayotganda...",
+        "options": ["Avval barcha qismlarni rangi yoki shakliga qarab guruhlarga ajratib olaman.", "Shunchaki bir chekkadan yig'ishni boshlayman va mantiqiy yechim topishga harakat qilaman."]
+    },
+    {
+        "question": "Qaysi vaziyatda o'zingizni qulay his qilasiz?",
+        "options": ["Ko'pchilik oldida nutq so'zlayotganda.", "Biror mahsulotni boshqalarga maqtayotganda va sotayotganda."]
+    },
+    {
+        "question": "Do'stingizga sovg'a tanlayotganda...",
+        "options": ["O'z qo'llaringiz bilan yasalgan, noyob sovg'a berishni afzal ko'rasiz.", "Unga nima kerakligini o'ylab, foydali sovg'a tanlaysiz."]
+    },
+    {
+        "question": "Tabiat qo'ynida...",
+        "options": ["Ko'proq harakat qilishni, masalan, daraxtga chiqish yoki daryoda cho'milishni yoqtirasiz.", "O'simliklar va hasharotlarni kuzatishni, ularni o'rganishni yoqtirasiz."]
+    },
+    {
+        "question": "Rejalaringiz kutilmaganda o'zgarib qolsa...",
+        "options": ["Xotirjamlik bilan yangi vaziyatga moslashaman, bu ham bir qiziq sarguzasht.", "Biroz xavotirga tushaman, chunki men reja bo'yicha ishlashni yaxshi ko'raman."]
+    },
+    {
+        "question": "Ma'lumotlarni qanday saqlashni afzal ko'rasiz?",
+        "options": ["Jadvallar va ro'yxatlar shaklida, tartibli qilib.", "Hikoya yoki matn shaklida, batafsil yozib."]
+    },
+    {
+        "question": "Sizningcha, muvaffaqiyat nima?",
+        "options": ["O'z kompaniyangizni yaratish va uni boshqarish.", "Dunyoga mashhur san'at asarini yaratish."]
+    },
+    {
+        "question": "Odamlar haqida nima sizni ko'proq qiziqtiradi?",
+        "options": ["Ularning his-tuyg'ulari va bir-birlari bilan munosabatlari.", "Inson tanasi qanday ishlashi va sog'lig'i."]
+    },
+    {
+        "question": "Biror narsaga fikringiz boshqalarnikidan farq qilsa...",
+        "options": ["O'z fikrimni dadil aytaman va uni himoya qilaman.", "Jim turishni yoki bahslashmaslikni afzal ko'raman."]
+    },
+    {
+        "question": "Qaysi biri sizga ko'proq yoqadi?",
+        "options": ["Aniq qoidalar va mantiqqa asoslangan o'yinlar (shaxmat, matematika).", "Tasavvur va ijodkorlikni talab qiladigan o'yinlar (rolli o'yinlar, hikoya to'qish)."]
+    }
+]
