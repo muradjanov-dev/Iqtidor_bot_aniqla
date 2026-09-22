@@ -57,7 +57,7 @@ o'rnatilmaydi, hech kim to'lamaydi.
 > variantiga** o'ting. O'z serveringizda bunday cheklov yo'q.
 
 ```bash
-python3 deploy/jitsi/jitsi_link.py
+python3 utils/jitsi_link.py
 # Xona: dars-OWwvoKcw
 # Havola: https://meet.jit.si/dars-OWwvoKcw#config.startWithAudioMuted=true...
 ```
@@ -65,7 +65,7 @@ python3 deploy/jitsi/jitsi_link.py
 Botga ulash (aiogram 3):
 
 ```python
-from deploy.jitsi.jitsi_link import meeting_link
+from utils.jitsi_link import meeting_link
 
 @admin_router.message(Command("dars"))
 async def start_lesson(message: Message):
