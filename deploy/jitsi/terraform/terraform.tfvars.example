@@ -1,0 +1,27 @@
+# Bu faylni terraform.tfvars nomi bilan nusxalang va to'ldiring.
+# terraform.tfvars ni git'ga QO'SHMANG — unda API kalitlari bo'ladi.
+
+# Oracle Console -> Profile -> API Keys -> Add API Key
+# "Configuration file preview" oynasidagi qiymatlarni shu yerga ko'chiring.
+tenancy_ocid     = "ocid1.tenancy.oc1..xxxxxxxx"
+user_ocid        = "ocid1.user.oc1..xxxxxxxx"
+fingerprint      = "aa:bb:cc:dd:ee:ff:00:11:22:33:44:55:66:77:88:99"
+private_key_path = "~/.oci/oci_api_key.pem"
+compartment_ocid = "ocid1.tenancy.oc1..xxxxxxxx" # root compartment = tenancy_ocid
+region           = "eu-frankfurt-1"
+
+# SSH kaliti (yo'q bo'lsa: ssh-keygen -t ed25519)
+ssh_public_key_path = "~/.ssh/id_ed25519.pub"
+
+# Xavfsizroq: faqat o'z IP'ingizdan SSH
+# ssh_allowed_cidr = "1.2.3.4/32"
+
+# Domen (HTTPS uchun). Bo'sh qoldirsangiz self-signed sertifikat bo'ladi.
+domain = "meet.example.com"
+email  = "siz@example.com"
+
+# Faqat o'qituvchi xona ocha olsin:
+# enable_auth = true
+
+# "Out of host capacity" chiqsa: 2 yoki 3 ni sinang
+# availability_domain_number = 2

@@ -1,0 +1,18 @@
+#cloud-config
+# Oracle Cloud VM birinchi marta yonganda Jitsi'ni to'liq o'rnatadi.
+# Terraform buni templatefile() orqali to'ldiradi.
+
+package_update: true
+package_upgrade: false
+
+write_files:
+  - path: /opt/jitsi-setup.sh
+    permissions: '0755'
+    owner: root:root
+    encoding: b64
+    content: ${setup_script_b64}
+
+runcmd:
+  - [ bash, -c, "/opt/jitsi-setup.sh ${setup_args} > /var/log/jitsi-setup.log 2>&1" ]
+
+final_message: "Jitsi o'rnatildi. Log: /var/log/jitsi-setup.log"
