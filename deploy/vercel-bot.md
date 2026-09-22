@@ -33,6 +33,21 @@ kerak emas — havola oddiy URL.
 
 ## O'rnatish
 
+### Eng qisqa yo'l — bitta buyruq
+
+```bash
+./scripts/setup.sh https://iqtidor-bot-aniqla.vercel.app
+```
+
+Skript tokenni so'raydi va tekshiradi, `WEBHOOK_SECRET` yasaydi, `.env` ni
+to'ldiradi, Vercel CLI bo'lsa o'zgaruvchilarni yuborib redeploy qiladi va
+webhook'ni ulaydi. Vercel CLI bo'lmasa — nimani qo'lda qo'yish kerakligini
+aniq yozib beradi.
+
+Quyidagisi — o'sha qadamlarni qo'lda bajarish.
+
+### Qo'lda
+
 ### 1. Vercel'ga ulash
 
 1. <https://vercel.com/new> → GitHub bilan kiring
