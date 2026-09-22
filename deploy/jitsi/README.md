@@ -13,7 +13,7 @@ Bu papkada ikkita tayyor yo'l bor.
 
 | | Narxi | Server kerakmi | HTTPS | Cheklov |
 |---|---|---|---|---|
-| **A. `meet.jit.si`** (ommaviy Jitsi) | 0 $ | Yo'q | Tayyor | Xona 8x8 serverida; brend o'zingizniki emas |
+| **A. `meet.jit.si`** (ommaviy Jitsi) | 0 $ | Yo'q | Tayyor | Xona ochish uchun o'qituvchi Google/GitHub bilan kirishi shart |
 | **B. Oracle Cloud Always Free** | 0 $ | Ha (4 CPU / 24 GB) | Let's Encrypt | Karta bilan ro'yxatdan o'tish; A1 quvvati ba'zan tugaydi |
 | ~~C. GitHub~~ | — | — | — | **Ishlamaydi** — pastga qarang |
 
@@ -41,6 +41,20 @@ Jitsi esa alohida serverda turishi shart.
 
 Bot `meet.jit.si` da tasodifiy xona ochib, havolani yuboradi. Hech narsa
 o'rnatilmaydi, hech kim to'lamaydi.
+
+> **Muhim shart.** 2023-yil 24-avgustdan beri `meet.jit.si` da **xona ochish
+> uchun** moderator Google, GitHub, Facebook yoki Microsoft akkaunti bilan bir
+> marta kirishi shart. Ya'ni:
+>
+> * **O'qituvchi** — havolani birinchi bo'lib ochadi va "Sign in" bosadi
+>   (bir marta; brauzer keyin eslab qoladi).
+> * **O'quvchilar** — hech qanday akkaunt kerak emas, shunchaki havolani
+>   bosadi. Agar o'qituvchi hali kirmagan bo'lsa, "waiting for a moderator"
+>   yozuvini ko'rib kutadi.
+>
+> Shu bitta login sizga to'g'ri kelmasa (masalan o'qituvchilarda Google
+> akkaunti yo'q, yoki xona to'liq o'zingizniki bo'lishi kerak) — **B
+> variantiga** o'ting. O'z serveringizda bunday cheklov yo'q.
 
 ```bash
 python3 deploy/jitsi/jitsi_link.py
