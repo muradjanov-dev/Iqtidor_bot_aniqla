@@ -16,7 +16,9 @@ from urllib.parse import quote, urlencode
 DEFAULT_BASE_URL = os.getenv("JITSI_BASE_URL", "https://meet.jit.si")
 
 # Xonaga taxmin qilib kirib bo'lmasligi uchun nom oxiriga tasodifiy qism qo'shamiz.
-_RANDOM_SUFFIX_BYTES = 6
+# Faqat harf va raqam: havola chiroyli ko'rinadi va qo'lda ham yozib bo'ladi.
+_SUFFIX_ALPHABET = "abcdefghijkmnpqrstuvwxyz23456789"  # o/0, l/1 chalkashmasligi uchun
+_SUFFIX_LENGTH = 8
 
 
 def _slugify(text: str) -> str:
@@ -30,7 +32,8 @@ def _slugify(text: str) -> str:
 def make_room_name(prefix: str = "iqtidor") -> str:
     """Taxmin qilib bo'lmaydigan xona nomi qaytaradi."""
     base = _slugify(prefix) or "iqtidor"
-    return f"{base}-{secrets.token_urlsafe(_RANDOM_SUFFIX_BYTES)}"
+    suffix = "".join(secrets.choice(_SUFFIX_ALPHABET) for _ in range(_SUFFIX_LENGTH))
+    return f"{base}-{suffix}"
 
 
 def meeting_link(
